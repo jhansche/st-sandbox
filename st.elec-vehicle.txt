@@ -1,0 +1,134 @@
+$ smartthings capabilities:create
+? Capability Name: Electric Vehicle
+? Select an action... Add an attribute
+? Attribute Name:  batteryPercent
+? Select an attribute type: number
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):  100
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  rangeMiles
+? Select an attribute type: number
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  chargingState
+? Select an attribute type: string
+? Maximum length (default: no max length):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  chargeTimeRemaining
+? Select an attribute type: number
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add a command
+? Command Name:  chargeStart
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  chargeStop
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  setChargeLimit
+? If you want to add argument, enter a name for it now (enter to finish):  chargeLimitSoc
+? Select an argument type: integer
+? Is this argument optional? No
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  chargePortOpen
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  chargePortClose
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Finish & Create
+
+
+Capability: chapterdream03931.electricVehicle
+
+
+Attributes:
+┌─────────────────────┬────────┬────────────────────────┐
+│ Name                │ Type   │ Setter                 │
+├─────────────────────┼────────┼────────────────────────┤
+│ chargeTimeRemaining │ number │ setChargeTimeRemaining │
+│ batteryPercent      │ number │ setBatteryPercent      │
+│ rangeMiles          │ number │ setRangeMiles          │
+│ chargingState       │ string │ setChargingState       │
+└─────────────────────┴────────┴────────────────────────┘
+
+Commands:
+┌────────────────────────┬─────────────────────────┐
+│ Name                   │ Arguments               │
+├────────────────────────┼─────────────────────────┤
+│ chargeStart            │                         │
+│ chargeStop             │                         │
+│ chargePortClose        │                         │
+│ setRangeMiles          │ value: number           │
+│ setChargeTimeRemaining │ value: number           │
+│ setBatteryPercent      │ value: number           │
+│ setChargeLimit         │ chargeLimitSoc: integer │
+│ chargePortOpen         │                         │
+│ setChargingState       │ value: string           │
+└────────────────────────┴─────────────────────────┘
+
+$ smartthings capabilities:create
+? Capability Name: Electric Vehicle
+? Select an action... Add an attribute
+? Attribute Name:  batteryPercent
+? Select an attribute type: number
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):  100
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  rangeMiles
+? Select an attribute type: number
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  chargingState
+? Select an attribute type: string
+? Maximum length (default: no max length):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  chargeTimeRemaining
+? Select an attribute type: number
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add a command
+? Command Name:  chargeStart
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  chargeStop
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  setChargeLimit
+? If you want to add argument, enter a name for it now (enter to finish):  chargeLimitSoc
+? Select an argument type: integer
+? Is this argument optional? No
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  chargePortOpen
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  chargePortClose
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Finish & Create

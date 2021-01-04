@@ -1,0 +1,71 @@
+{
+  "id": "chapterdream03931.automobile",
+  "version": 2,
+  "iconUrl": "http://cdn.device-icons.smartthings.com/tesla/tesla-front-icn.png",
+  "dashboard": {
+    "states": [],
+    "actions": [],
+    "basicPlus": []
+  },
+  "detailView": [
+    {
+      "component": "main",
+      "version": 1,
+      "label": "VIN",
+      "displayType": "state",
+      "capability": "chapterdream03931.automobile",
+      "state": {
+        "label": "{{vin.value}}"
+      }
+    },
+    {
+      "component": "main",
+      "version": 1,
+      "label": "Version (SW)",
+      "displayType": "state",
+      "capability": "chapterdream03931.automobile",
+      "state": {
+        "label": "{{swVersion.value}}"
+      }
+    },
+    {
+      "component": "main",
+      "version": 1,
+      "label": "Car State",
+      "displayType": "state",
+      "capability": "chapterdream03931.automobile",
+      "state": {
+        "label": "{{carState.value}}"
+      }
+    }
+  ],
+  "automation": {
+    "conditions": [
+      {
+        "label": "Car State",
+        "displayType": "list",
+        "list": {
+          "value": "carState.value",
+          "multiSelection": true,
+          "alternatives": [
+            {
+              "key": "Sleeping",
+              "value": "Sleeping",
+              "type": "inactive"
+            },
+            {
+              "key": "Idling",
+              "value": "Idle",
+              "type": "inactive"
+            },
+            {
+              "key": "Driving",
+              "value": "Driving",
+              "type": "active"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

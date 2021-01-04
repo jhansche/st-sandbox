@@ -1,0 +1,20 @@
+┌────────────────────┬─────────────────────────────────────────┐
+│ Name               │ TeslaFi Vehicle                         │
+│ main component     │ chapterdream03931.automobile            │
+│ electric component │ battery                                 │
+│                    │ powerSource                             │
+│                    │ powerMeter                              │
+│                    │ energyMeter                             │
+│                    │ voltageMeasurement                      │
+│                    │ chapterdream03931.electricVehicle       │
+│ climate component  │ thermostatOperatingState                │
+│                    │ thermostatMode                          │
+│                    │ thermostatCoolingSetpoint               │
+│                    │ thermostatHeatingSetpoint               │
+│ Id                 │ eb904bfe-0657-4f7e-b85b-00e3cae39280    │
+│ Device Type        │ Others                                  │
+│ OCF Device Type    │ oic.wk.d                                │
+│ Manufacturer Name  │ fUH0                                    │
+│ Presentation ID    │ ST_4fa2f922-85af-4023-bb9b-fee74b7d14b8 │
+│ Status             │ PUBLISHED                               │
+└────────────────────┴─────────────────────────────────────────┘

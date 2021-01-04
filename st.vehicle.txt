@@ -1,0 +1,117 @@
+Capability: chapterdream03931.automobile
+
+
+Attributes:
+┌───────────────┬─────────┬──────────────────┐
+│ Name          │ Type    │ Setter           │
+├───────────────┼─────────┼──────────────────┤
+│ geoLongitude  │ number  │ setGeoLongitude  │
+│ geoLatitude   │ number  │ setGeoLatitude   │
+│ swVersion     │ string  │ setSwVersion     │
+│ heading       │ integer │ setHeading       │
+│ speedMph      │ integer │ setSpeedMph      │
+│ odometerMiles │ integer │ setOdometerMiles │
+│ vin           │ string  │ setVin           │
+│ carState      │ string  │                  │
+│ hwVersion     │ string  │ setHwVersion     │
+└───────────────┴─────────┴──────────────────┘
+
+Commands:
+┌──────────────────┬───────────────────────────┐
+│ Name             │ Arguments                 │
+├──────────────────┼───────────────────────────┤
+│ setHwVersion     │ value: string             │
+│ setOdometerMiles │ value: integer            │
+│ setGeoLatitude   │ value: number             │
+│ wake             │ await: integer (optional) │
+│ setHeading       │ value: integer            │
+│ setGeoLongitude  │ value: number             │
+│ refresh          │                           │
+│ setSwVersion     │ value: string             │
+│ setVin           │ value: string             │
+│ setSpeedMph      │ value: integer            │
+└──────────────────┴───────────────────────────┘
+
+
+$ smartthings capabilities:create
+? Capability Name: Automobile
+? Select an action... Add an attribute
+? Attribute Name:  carState
+? Select an attribute type: string
+? Maximum length (default: no max length):
+? Add a setter command for this attribute? No
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  vin
+? Select an attribute type: string
+? Maximum length (default: no max length):  17
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  hwVersion
+? Select an attribute type: string
+? Maximum length (default: no max length):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  swVersion
+? Select an attribute type: string
+? Maximum length (default: no max length):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  odometerMiles
+? Select an attribute type: integer
+? Minimum value (default: no minimum):
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  speedMph
+? Select an attribute type: integer
+? Minimum value (default: no minimum):  -1
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  geoLatitude
+? Select an attribute type: number
+? Minimum value (default: no minimum):
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  geoLongitude
+? Select an attribute type: number
+? Minimum value (default: no minimum):
+? Maximum value (default: no maximum):
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add an attribute
+? Attribute Name:  heading
+? Select an attribute type: integer
+? Minimum value (default: no minimum):  0
+? Maximum value (default: no maximum):  360
+? Add a setter command for this attribute? Yes
+? If you want to add a basic command, enter a command name now (or hit enter for none):
+(Basic commands are simple commands that set the attribute to a specific value.)
+? Select an action... Add a command
+? Command Name:  refresh
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Add a command
+? Command Name:  wake
+? If you want to add argument, enter a name for it now (enter to finish):  await
+? Select an argument type: integer
+? Is this argument optional? Yes
+? If you want to add argument, enter a name for it now (enter to finish):
+? Select an action... Finish & Create
+
+

@@ -1,0 +1,9 @@
+[2020-12-03T17:06:33.849] [ERROR] login-authenticator - received "server_error" error when trying to authenticate
+[2020-12-03T17:06:33.850] [ERROR] login-authenticator -   Unexpected server error.
+[2020-12-03T17:07:02.501] [ERROR] login-authenticator - received "server_error" error when trying to authenticate
+[2020-12-03T17:07:02.502] [ERROR] login-authenticator -   Unexpected server error.
+[2020-12-03T17:11:42.874] [ERROR] login-authenticator - received "server_error" error when trying to authenticate
+[2020-12-03T17:11:42.875] [ERROR] login-authenticator -   Unexpected server error.
+[2020-12-03T17:16:05.585] [ERROR] login-authenticator - received "server_error" error when trying to authenticate
+[2020-12-03T17:16:05.586] [ERROR] login-authenticator -   Unexpected server error.
+[2020-12-03T18:00:58.147] [WARN] cli - could not determine file type from filename "virtu, assuming YAML

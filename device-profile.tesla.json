@@ -1,0 +1,249 @@
+{
+  "mnmn": "fUH0",
+  "vid": "ST_4fa2f922-85af-4023-bb9b-fee74b7d14b8",
+  "type": "profile",
+  "dashboard": {
+    "states": [],
+    "actions": []
+  },
+  "detailView": [
+    {
+      "component": "main",
+      "capability": "chapterdream03931.automobile",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "electric",
+      "capability": "battery",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "electric",
+      "capability": "powerSource",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "electric",
+      "capability": "powerMeter",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "electric",
+      "capability": "energyMeter",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "electric",
+      "capability": "voltageMeasurement",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "electric",
+      "capability": "chapterdream03931.electricVehicle",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "climate",
+      "capability": "thermostatOperatingState",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "climate",
+      "capability": "thermostatMode",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "climate",
+      "capability": "thermostatCoolingSetpoint",
+      "version": 1,
+      "values": [],
+      "patch": []
+    },
+    {
+      "component": "climate",
+      "capability": "thermostatHeatingSetpoint",
+      "version": 1,
+      "values": [],
+      "patch": []
+    }
+  ],
+  "automation": {
+    "conditions": [
+      {
+        "component": "main",
+        "capability": "chapterdream03931.automobile",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "battery",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "powerSource",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "powerMeter",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "energyMeter",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "voltageMeasurement",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "chapterdream03931.electricVehicle",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatOperatingState",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatMode",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatCoolingSetpoint",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatHeatingSetpoint",
+        "version": 1,
+        "values": [],
+        "patch": []
+      }
+    ],
+    "actions": [
+      {
+        "component": "main",
+        "capability": "chapterdream03931.automobile",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "battery",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "powerSource",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "powerMeter",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "energyMeter",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "voltageMeasurement",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "electric",
+        "capability": "chapterdream03931.electricVehicle",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatOperatingState",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatMode",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatCoolingSetpoint",
+        "version": 1,
+        "values": [],
+        "patch": []
+      },
+      {
+        "component": "climate",
+        "capability": "thermostatHeatingSetpoint",
+        "version": 1,
+        "values": [],
+        "patch": []
+      }
+    ]
+  },
+  "migration": true
+}

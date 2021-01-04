@@ -1,0 +1,120 @@
+{
+  "deviceId": "f6cd680d-70c4-4db1-b2db-07a8adc66742",
+  "name": "Tesla 2101418668",
+  "label": "Karrl",
+  "manufacturerName": "SmartThingsCommunity",
+  "presentationId": "9a21e6f1-a75f-3762-9524-fbdd391c0c55",
+  "locationId": "236921c7-4fef-42b0-bb6c-ee9d92036372",
+  "roomId": "88cad811-e763-4220-b49f-874a74cfdb67",
+  "deviceTypeId": "d8ab0514-358e-4b3f-ab88-a04fb1fade3a",
+  "deviceTypeName": "Tesla",
+  "deviceNetworkType": "UNKNOWN",
+  "components": [
+    {
+      "id": "main",
+      "label": "Karrl",
+      "capabilities": [
+        {
+          "id": "temperatureMeasurement",
+          "version": 1
+        },
+        {
+          "id": "battery",
+          "version": 1
+        },
+        {
+          "id": "motionSensor",
+          "version": 1
+        },
+        {
+          "id": "presenceSensor",
+          "version": 1
+        },
+        {
+          "id": "tone",
+          "version": 1
+        },
+        {
+          "id": "lock",
+          "version": 1
+        },
+        {
+          "id": "refresh",
+          "version": 1
+        },
+        {
+          "id": "energyMeter",
+          "version": 1
+        },
+        {
+          "id": "powerMeter",
+          "version": 1
+        },
+        {
+          "id": "sleepSensor",
+          "version": 1
+        },
+        {
+          "id": "thermostatMode",
+          "version": 1
+        },
+        {
+          "id": "thermostatSetpoint",
+          "version": 1
+        },
+        {
+          "id": "timedSession",
+          "version": 1
+        },
+        {
+          "id": "voltageMeasurement",
+          "version": 1
+        },
+        {
+          "id": "powerSource",
+          "version": 1
+        },
+        {
+          "id": "geolocation",
+          "version": 1
+        },
+        {
+          "id": "chapterdream03931.automobile",
+          "version": 1
+        },
+        {
+          "id": "chapterdream03931.electricVehicle",
+          "version": 1
+        }
+      ],
+      "categories": [
+        "MotionSensor"
+      ]
+    },
+    {
+      "id": "outside",
+      "label": "Outside",
+      "capabilities": [
+        {
+          "id": "temperatureMeasurement",
+          "version": 1
+        }
+      ],
+      "categories": [
+        "MultiFunctionalSensor"
+      ]
+    }
+  ],
+  "dth": {
+    "deviceTypeId": "d8ab0514-358e-4b3f-ab88-a04fb1fade3a",
+    "deviceTypeName": "Tesla",
+    "deviceNetworkType": "UNKNOWN",
+    "completedSetup": true,
+    "networkSecurityLevel": "UNKNOWN",
+    "hubId": "36dfada1-39a4-4282-b25b-ba5aa5115664",
+    "executingLocally": false,
+    "installedGroovyAppId": "a58c8b1b-bcc3-4741-b804-956ac2e51b13"
+  },
+  "type": "DTH",
+  "restrictionTier": 0
+}

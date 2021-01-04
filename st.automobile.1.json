@@ -1,0 +1,273 @@
+{
+    "id": "chapterdream03931.automobile",
+    "version": 1,
+    "status": "proposed",
+    "name": "Automobile",
+    "attributes": {
+        "geoLongitude": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setGeoLongitude",
+            "enumCommands": []
+        },
+        "geoLatitude": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "number"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setGeoLatitude",
+            "enumCommands": []
+        },
+        "swVersion": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSwVersion",
+            "enumCommands": []
+        },
+        "heading": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 360
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setHeading",
+            "enumCommands": []
+        },
+        "speedMph": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer",
+                        "minimum": -1
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setSpeedMph",
+            "enumCommands": []
+        },
+        "odometerMiles": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "integer"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setOdometerMiles",
+            "enumCommands": []
+        },
+        "vin": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string",
+                        "maxLength": 17
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setVin",
+            "enumCommands": []
+        },
+        "carState": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "enumCommands": []
+        },
+        "hwVersion": {
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "value": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "value"
+                ]
+            },
+            "setter": "setHwVersion",
+            "enumCommands": []
+        }
+    },
+    "commands": {
+        "setHwVersion": {
+            "name": "setHwVersion",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "setOdometerMiles": {
+            "name": "setOdometerMiles",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ]
+        },
+        "setGeoLatitude": {
+            "name": "setGeoLatitude",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "wake": {
+            "name": "wake",
+            "arguments": [
+                {
+                    "name": "await",
+                    "optional": true,
+                    "schema": {
+                        "type": "integer"
+                    }
+                }
+            ]
+        },
+        "setHeading": {
+            "name": "setHeading",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 360
+                    }
+                }
+            ]
+        },
+        "setGeoLongitude": {
+            "name": "setGeoLongitude",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "number"
+                    }
+                }
+            ]
+        },
+        "refresh": {
+            "name": "refresh",
+            "arguments": []
+        },
+        "setSwVersion": {
+            "name": "setSwVersion",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "string"
+                    }
+                }
+            ]
+        },
+        "setVin": {
+            "name": "setVin",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "string",
+                        "maxLength": 17
+                    }
+                }
+            ]
+        },
+        "setSpeedMph": {
+            "name": "setSpeedMph",
+            "arguments": [
+                {
+                    "name": "value",
+                    "optional": false,
+                    "schema": {
+                        "type": "integer",
+                        "minimum": -1
+                    }
+                }
+            ]
+        }
+    }
+}
