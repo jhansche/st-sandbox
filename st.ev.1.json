@@ -53,13 +53,18 @@
             "schema": {
                 "type": "object",
                 "properties": {
-                  "value": {
-                    "type": "number",
-                    "minimum": 0,
-                    "maximum": 100
-                  }
+                    "value": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 100
+                    },
+                    "unit": {
+                        "type": "string",
+                        "enum": ["%"],
+                        "default": "%"
+                    }
                 },
-                "additionalProperties": false,
+                "additionalProperties": false
             }
         }
     },
