@@ -21,7 +21,7 @@
     {
       "component": "main",
       "version": 1,
-      "label": "Version (SW)",
+      "label": "Version",
       "displayType": "state",
       "capability": "chapterdream03931.automobile",
       "state": {
