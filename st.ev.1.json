@@ -1,89 +1,96 @@
 {
-    "id": "chapterdream03931.electricVehicle",
-    "version": 1,
-    "status": "proposed",
-    "name": "Electric Vehicle",
-    "attributes": {
-        "batteryRange": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "number",
-                        "minimum": 0
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": [
-                            "km",
-                            "mi"
-                        ],
-                        "default": "mi"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
+  "id": "chapterdream03931.electricVehicle",
+  "version": 1,
+  "status": "proposed",
+  "name": "Electric Vehicle",
+  "attributes": {
+    "batteryRange": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number",
+            "minimum": 0
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "km",
+              "mi"
+            ],
+            "default": "mi"
+          }
         },
-        "chargingState": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "string",
-                        "enum": [
-                            "charging",
-                            "completed",
-                            "not_charging",
-                            "unknown"
-                        ]
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "value"
-                ]
-            },
-            "enumCommands": []
-        },
-        "chargeMax": {
-            "schema": {
-                "type": "object",
-                "properties": {
-                    "value": {
-                        "type": "number",
-                        "minimum": 0,
-                        "maximum": 100
-                    },
-                    "unit": {
-                        "type": "string",
-                        "enum": ["%"],
-                        "default": "%"
-                    }
-                },
-                "additionalProperties": false
-            }
-        }
+        "additionalProperties": false,
+        "required": [
+          "value",
+          "unit"
+        ]
+      },
+      "enumCommands": []
     },
-    "commands": {
-        "chargeStart": {
-            "name": "chargeStart",
-            "arguments": []
+    "chargingState": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "enum": [
+              "charging",
+              "completed",
+              "not_charging",
+              "unknown"
+            ]
+          }
         },
-        "chargeStop": {
-            "name": "chargeStop",
-            "arguments": []
+        "additionalProperties": false,
+        "required": [
+          "value"
+        ]
+      },
+      "enumCommands": []
+    },
+    "chargeMax": {
+      "schema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "unit": {
+            "type": "string",
+            "enum": [
+              "%"
+            ],
+            "default": "%"
+          }
         },
-        "chargePortClose": {
-            "name": "chargePortClose",
-            "arguments": []
-        },
-        "chargePortOpen": {
-            "name": "chargePortOpen",
-            "arguments": []
-        }
+        "additionalProperties": false,
+        "required": [
+          "value",
+          "unit"
+        ]
+      }
     }
+  },
+  "commands": {
+    "chargeStart": {
+      "name": "chargeStart",
+      "arguments": []
+    },
+    "chargeStop": {
+      "name": "chargeStop",
+      "arguments": []
+    },
+    "chargePortClose": {
+      "name": "chargePortClose",
+      "arguments": []
+    },
+    "chargePortOpen": {
+      "name": "chargePortOpen",
+      "arguments": []
+    }
+  }
 }
